@@ -1,0 +1,18 @@
+/* Inspired by https://jrl.ninja/etc/1/ */
+#content {
+    max-width: 80ch;
+    padding: 1ch;
+    margin: auto;
+}
+
+blockquote, .figure {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 0 1em;
+    margin: 1.2em;
+}
+
+.figure img {
+    max-width: 100%;
+}
+
