@@ -1,0 +1,10 @@
+#+title: oclug-org
+
+Demo of org-mode for the Orange County Linux User Group
+
+* Part 1
+
+  + Emacs basics
+  + Org-mode markup language
+  + Exports
+
