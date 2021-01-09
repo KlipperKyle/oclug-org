@@ -20,6 +20,11 @@
   2. Don’t die.
   3. If you’re going to die, then look cool while doing it.
 
+* Images
+
+  #+caption: Saint Philomena, pray for us!
+  file:philomena.png
+
 * Electors by state
 
   | State        | Num |
