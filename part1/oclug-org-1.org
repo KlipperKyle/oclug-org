@@ -1,0 +1,54 @@
+#+title: OCLUG org-mode demo, part 1
+#+subtitle: Why org-mode?
+
+* Problem space
+** You need a personal online notebook
+   + You are a serious computer user.
+   + You need to document things you learn and do.
+   + The notebook should be fast, simple, and easy to search.
+   + Ideally, the notebook shouldn’t use a binary format.  (Plain text
+     is generally good enough.)
+** You need to write a lengthy document with complex formatting
+   + Markdown doesn’t cut it.
+   + Entry to LaTeX-land is too expensive.
+   + Word processor?  Maybe, maybe not.
+** You have a complex todo-list
+   + Repeating events, several projects, arbitrary deadlines, and
+     dependencies.
+   + Each todo app has its own quirks, and you don’t like that.
+   + Flat text file is inadequate.
+* Solution: [[https://orgmode.org/][org-mode]], “Your life in plain text”
+  + What is org-mode?  Emacs elisp module, bundled with [[https://www.gnu.org/software/emacs/][GNU Emacs]]
+  + Outliner, markup language, and personal organizer
+  + You’re looking at it!
+  + Exports into several output formats: HTML, PDF, ODT, man page, and
+    more.  The source format is plain text.
+* Basic Emacs
+** Why?
+   + If I don’t impress you with org-mode goodies, then I have failed.
+   + I’m not going to say Emacs > Vim.
+   + Comparison between Emacs and Vim?
+     + Emacs is more like an IDE.
+     + Lisp everywhere!
+     + Graphical support
+** ~C-h t~: the Emacs tutorial
+   + It *will* make you Emacs-literate in a few hours.
+   + ~C-h i~ displays the info page viewer: required for documentation
+** Doom Emacs?  Spacemacs?
+   + I have never used them.
+   + Personal preference.  Maybe you might like them, or maybe not.
+   + [[https://github.com/hlissner/doom-emacs][Doom Emacs]] is someone’s pre-canned configuration.
+   + [[https://www.spacemacs.org/][Spacemacs]] is its own distribution.  Vim-like keybindings.
+* Basic org-mode
+** Formatting
+   + Typeset some things: Paragraph, list, image, table, code
+** Exports: HTML, PDF, ODT
+   + HTML: demo style sheet
+   + PDF: show the LaTeX output
+   + ODT: Open in LibreOffice.  Show template support.
+** Where is this going?
+   + Show off the web site.
+   + Show off the VPPR user guide.
+   + Show off resumé.
+* Sneak peek
+** Org-agenda views
