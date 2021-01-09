@@ -41,7 +41,8 @@
    + [[https://www.spacemacs.org/][Spacemacs]] is its own distribution.  Vim-like keybindings.
 * Basic org-mode
 ** Formatting
-   + Typeset some things: Paragraph, list, image, table, code
+   + Typeset some things: Paragraph, list, image, table, code,
+     checkboxes
 ** Exports: HTML, PDF, ODT
    + HTML: demo style sheet
    + PDF: show the LaTeX output
