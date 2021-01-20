@@ -4,7 +4,14 @@ Demo of org-mode for the Orange County Linux User Group
 
 * Part 1
 
+  + Given on [2021-01-09 Sat] to OCLUG.
   + Emacs basics
   + Org-mode markup language
   + Exports
+
+* Part 1 (for the Releng team)
+
+  + Given on [2021-01-21 Thu] to my release engineering team at work.
+  + Slimmed down from ~60 minutes to ~30 minutes.
+  + We have many Vim fans.  Yeah, it’s Emacs.  Get over it!  ;-)
 

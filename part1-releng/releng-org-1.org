@@ -1,0 +1,41 @@
+#+title: Org-mode Demo
+#+author: Kyle Terrien
+#+date: January 21, 2021
+#+subtitle: Why Org-mode?
+#+startup: beamer
+#+options: toc:nil
+
+* Problem space
+** You need a personal online notebook
+   + You need to document things you learn and do.
+** You need to write a lengthy document with complex formatting
+   + Markdown is too basic.
+   + LaTeX is too hard to learn.
+   + Word processor?  Surely you jest!
+** You have a complex todo-list
+   + Repeating events, deadlines, and dependencies
+   + Each todo app stinks in a unique way.
+* Solution: [[https://orgmode.org/][org-mode]], “Your life in plain text”
+  + Outliner, markup language, and personal organizer
+  + Exports into several output formats: HTML, PDF, ODT, man page, and
+    more.  The source format is plain text.
+  + You’re looking at it!
+* But, it’s Emacs.  Eww!
+** Yeah, it’s Emacs.  Get over it!
+   + ~C-h t~ → Emacs tutorial
+** Attached to vi?
+   + evil-mode → vi keybindings, install through MELPA
+   + [[https://www.spacemacs.org/][Spacemacs]] → custom distribution with vi keybindings
+* Basic org-mode
+** Formatting
+   + Typeset some things: Paragraph, list, image, table, code,
+     checkboxes
+** Exports: HTML, PDF, ODT
+   + HTML: supports style sheets
+   + PDF: LaTeX, Beamer
+   + ODT: for LibreOffice, supports templates
+** Where is this going?
+   + You can build a web site: OCLUG.org
+   + You can create a slideshow: Beamer
+* Sneak peek
+  + Org-agenda views

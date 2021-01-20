@@ -1,0 +1,72 @@
+#+title: Org mode demo
+#+subtitle: Hello, OCLUG!
+#+options: 
+#+html_head_extra: <link rel="stylesheet" type="text/css" href="style.css" />
+#+odt_styles_file: "demo-finished.ott"
+
+* Intro
+
+  Org mode, or “your life in plain text” is one part outliner, one
+  part word processor, and one part personal organizer.
+
+* Why?
+
+  + ~org-mode~ is cool!
+  + Plain text is cool!
+
+* Philmont’s 3 rules
+
+  1. Be cool.
+  2. Don’t die.
+  3. If you’re going to die, then look cool while doing it.
+
+* Images
+
+  #+caption: Saint Philomena, pray for us!
+  file:philomena.png
+
+* Electors by state
+
+  | State        | Num |
+  |--------------+-----|
+  | California   |  55 |
+  | Georgia      |  16 |
+  | Michigan     |  16 |
+  | Minnesota    |  10 |
+  | Pennsylvania |  20 |
+  | Wisconsin    |  10 |
+  
+* Hello world programs
+
+** C
+
+   #+begin_src c
+     #include <stdio.h>
+
+     int main() {
+       printf("Hello world!");
+       return 0;
+     }
+   #+end_src
+
+** Python
+
+   #+begin_src python
+     print("Hello world!")
+   #+end_src
+
+** Shell
+
+   #+begin_src sh
+     echo 'Hello world!'
+   #+end_src
+
+** Elisp
+
+   #+begin_src emacs-lisp
+     (message "Hello world!")
+   #+end_src
+
+   #+RESULTS:
+   : Hello world!
+
