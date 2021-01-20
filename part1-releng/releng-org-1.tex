@@ -1,0 +1,102 @@
+% Created 2021-01-20 Wed 15:21
+% Intended LaTeX compiler: pdflatex
+\documentclass[presentation]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usetheme{default}
+\author{Kyle Terrien}
+\date{January 21, 2021}
+\title{What is org-mode?}
+\hypersetup{
+ pdfauthor={Kyle Terrien},
+ pdftitle={What is org-mode?},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 27.1 (Org mode 9.3)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+
+\begin{frame}[label={sec:orgd5e9316}]{Problem space}
+\begin{block}{You need a personal online notebook}
+\begin{itemize}
+\item You need to document things you learn and do.
+\end{itemize}
+\end{block}
+\begin{block}{You need to write a lengthy document with complex formatting}
+\begin{itemize}
+\item Markdown doesn’t cut it.
+\item Entry to \LaTeX{}-land is too expensive.
+\item Word processor?  Surely you jest!
+\end{itemize}
+\end{block}
+\begin{block}{You have a complex todo-list}
+\begin{itemize}
+\item Repeating events, deadlines, and dependencies
+\item Each todo app has its own annoying quirks.
+\end{itemize}
+\end{block}
+\end{frame}
+\begin{frame}[label={sec:org1e6d28d}]{Solution: \href{https://orgmode.org/}{org-mode}, “Your life in plain text”}
+\begin{itemize}
+\item Outliner, markup language, and personal organizer
+\item Exports into several output formats: HTML, PDF, ODT, man page, and
+more.  The source format is plain text.
+\item You’re looking at an example right now!
+\end{itemize}
+\end{frame}
+\begin{frame}[label={sec:orgf9a596f},fragile]{But, it’s Emacs.  Eww!}
+ \begin{block}{Yeah, it’s Emacs.  Get over it!}
+\begin{itemize}
+\item \texttt{C-h t} → Emacs tutorial
+\end{itemize}
+\end{block}
+\begin{block}{Attached to vi?}
+\begin{itemize}
+\item evil-mode → vi keybindings, install through MELPA
+\item \href{https://www.spacemacs.org/}{Spacemacs} → custom distribution with vi keybindings
+\end{itemize}
+\end{block}
+\end{frame}
+\begin{frame}[label={sec:org4315d56},fragile]{Basic org-mode}
+ \begin{block}{Formatting}
+\begin{itemize}
+\item Typeset some things: Paragraph, list, image, table, code,
+checkboxes
+\end{itemize}
+\end{block}
+\begin{block}{Export to HTML, PDF, ODT}
+\begin{itemize}
+\item HTML: supports style sheets
+\item PDF: \LaTeX{}, Beamer
+\item ODT: for LibreOffice, supports templates
+\end{itemize}
+\end{block}
+\begin{block}{Where is this going?}
+\begin{itemize}
+\item You can build a web site: OCLUG.org
+\item You can create a slideshow: Beamer
+\begin{itemize}
+\item \texttt{M-x customize-group <RET> org-export}
+\end{itemize}
+\end{itemize}
+\end{block}
+\end{frame}
+\begin{frame}[label={sec:orge195f58}]{Sneak peek}
+\begin{itemize}
+\item Org-agenda views
+\end{itemize}
+\end{frame}
+\end{document}
