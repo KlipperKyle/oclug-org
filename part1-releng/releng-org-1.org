@@ -30,7 +30,7 @@
 ** Formatting
    + Typeset some things: Paragraph, list, image, table, code,
      checkboxes
-** Exports: HTML, PDF, ODT
+** Export to HTML, PDF, ODT
    + HTML: supports style sheets
    + PDF: LaTeX, Beamer
    + ODT: for LibreOffice, supports templates
