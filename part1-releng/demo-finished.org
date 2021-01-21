@@ -72,3 +72,9 @@
    #+RESULTS:
    : Hello world!
 
+** Plain text
+
+   #+begin_example
+     Hello world!  This is plain text.  It will be exported to a <pre> element.
+   #+end_example
+
